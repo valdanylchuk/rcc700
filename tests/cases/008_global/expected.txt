@@ -1,0 +1,7 @@
+Test 1: Read Global -> g_simple_val + 5 is 105 (expected: 105)
+Test 2: Modify Global -> g_counter is now 75 (expected: 75)
+Test 3: Uninitialized Global -> g_bss_var + 42 is 42 (expected: 42)
+Test 4: Basic Enum -> T_IDENT + T_NUMBER is 3 (expected: 3)
+Test 5: Explicit Enum -> FLAG_READ + WRITE + EXEC is 7 (expected: 7)
+Test 6: Global Int Array -> g_vals[0] + g_vals[1] is 50 (expected: 50)
+Test 7: Global Char Array -> g_text is Hi (expected: Hi)

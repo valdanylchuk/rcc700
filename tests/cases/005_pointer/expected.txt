@@ -1,0 +1,3 @@
+Assignment: a = b -> a is 10 (expected: 10)
+Pointer Dereference: p = &b; *p is 10 (expected: 10)
+Pointer Write: *p = 20 -> b is now 20 (expected: 20)

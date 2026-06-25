@@ -1,0 +1,50 @@
+--- Starting tests ---
+[OK]   Func Call
+[OK]   Nested Funcs
+[OK]   While Loop (Sum 1..5)
+[OK]   While Loop (GCD)
+[OK]   Ptr: Read (*p)
+[OK]   Ptr: Write (*p)
+[OK]   Ptr: Double Deref (**pp)
+[OK]   Ptr: Func Args (Swap)
+[OK]   Array: Read/Write
+[OK]   Array: Var Indexing
+[OK]   Array: Loop/Logic (Fib)
+[OK]   Array: Write via Ptr
+[OK]   Array: Read via Ptr
+[OK]   Char: Assign
+[OK]   Char: Truncation
+[OK]   Char Array: Indexing
+[OK]   Char Ptr: Deref
+[OK]   Char Ptr: Indexing
+[OK]   Char: Mixed Math
+[OK]   Char Ptr: Write Stack
+[OK]   Char: Unsigned (lbu)
+[OK]   Char Ptr: Func Arg Write
+[OK]   Global: Init (0)
+[OK]   Global: Read/Write
+[OK]   Global: Persistence
+[OK]   Global: Array
+[OK]   Global: Char
+[OK]   Global: Char Array
+[OK]   Global: Pointer
+[OK]   Global Char Ptr: Deref
+[OK]   Global Char Ptr: Inc
+[OK]   Global Arr Decay: Read
+[OK]   Global Arr Decay: Write
+[OK]   Global Arr + 1: Write
+[OK]   Enum Auto (0)
+[OK]   Enum Auto (1)
+[OK]   Enum Manual (10)
+[OK]   Enum Auto-After (11)
+[OK]   Recursion Depth (12)
+[OK]   Recursion Side-Effect
+[OK]   Ptr Logic: !=
+[OK]   Ptr Logic: ++
+[OK]   Ptr Logic: String Type
+[OK]   Ptr Logic: Str Content[0]
+[OK]   Ptr Logic: Str Content[1]
+[OK]   Ptr Logic: Str Null Term
+-----------------------------
+Tests Passed: 46 / 46
+RESULT: SUCCESS

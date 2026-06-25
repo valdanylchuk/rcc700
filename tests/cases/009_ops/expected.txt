@@ -1,0 +1,34 @@
+[OK]   Unary Neg (-)
+[OK]   Unary Neg Expr
+[OK]   Unary BitNot (~0)
+[OK]   Unary BitNot (~60)
+[OK]   Unary Logical NOT (!10)
+[OK]   Unary Logical NOT (!0)
+[OK]   Unary Logical NOT (!!10)
+[OK]   Pre-increment returns new value
+[OK]   Value after pre-increment
+[OK]   Pre-decrement returns new value
+[OK]   Value after pre-decrement
+[OK]   Pre-increment on global
+[OK]   Bitwise AND (60 & 13)
+[OK]   Bitwise OR (60 | 13)
+[OK]   Bitwise XOR (60 ^ 13)
+[OK]   Shift Left (60 << 2)
+[OK]   Shift Right (60 >> 2)
+[OK]   Shift Right is arithmetic
+[OK]   Logical AND (1&&0)
+[OK]   Logical AND normalizes (5&&3)
+[OK]   Logical OR (1||0)
+[OK]   Logical OR (0||0)
+[OK]   Precedence (& before ^ before |)
+[OK]   Precedence (+ before <<)
+[OK]   Precedence (== before &)
+[OK]   Precedence (&& before ||)
+[OK]   Ternary True
+[OK]   Ternary False
+[OK]   Ternary Expr Cond
+[OK]   Ternary Nested
+[OK]   Ternary Branch Exprs
+-----------------------------
+Tests Passed: 31 / 31
+RESULT: SUCCESS

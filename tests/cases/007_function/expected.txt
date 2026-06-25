@@ -1,0 +1,4 @@
+Test 1: power(3, 4) -> 81 (expected: 81)
+Test 2: replace_char -> go_go (expected: go_go)
+Test 3: factorial(5) -> 120 (expected: 120)
+Test 4: Nested call factorial(power(2,2)) -> 24 (expected: 24)

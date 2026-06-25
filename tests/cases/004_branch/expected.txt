@@ -1,0 +1,5 @@
+If (true): result is 1 (expected: 1)
+If (false): result is 0 (expected: 0)
+If/else: result is 2 (expected: 2)
+While loop: result is 30 (expected: 30)
+Comparisons: result is 1111 (expected: 1111)

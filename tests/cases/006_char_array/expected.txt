@@ -1,0 +1,7 @@
+Simple char: initial is A (expected: A)
+Char arithmetic: 'A' + 3 is D (expected: D)
+String pointer: greeting is Hello (expected: Hello)
+Indexing: greeting[1] is e (expected: e)
+Manual string: name is Jul (expected: Jul)
+Modification: name is now Yul (expected: Yul)
+Int array: ages[2] = 12 (expected: 12)

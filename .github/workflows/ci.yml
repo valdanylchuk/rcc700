@@ -1,0 +1,19 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+# Everything runs in the dev container (riscv32-esp-elf toolchain + qemu),
+# exactly what `make docker-test` does locally.
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test
+        run: make docker-test
+
+      - name: Reference binaries
+        run: make docker-ref
