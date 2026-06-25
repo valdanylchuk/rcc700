@@ -1,5 +1,7 @@
 # rcc700.c: Self-hosting mini C compiler for esp32 / RISC-V
 
+[![CI](https://github.com/valdanylchuk/rcc700/actions/workflows/ci.yml/badge.svg)](https://github.com/valdanylchuk/rcc700/actions/workflows/ci.yml)
+
 A port of [xcc700](https://github.com/valdanylchuk/xcc700) (my Xtensa mini C
 compiler) to the RISC-V esp32 variants. Mostly just RV32 ABI/opcodes instead of Xtensa.
 Tested on the esp32-p4.
